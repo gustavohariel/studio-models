@@ -6,7 +6,9 @@ import {
   CarouselItem,
 } from '@/components/ui/carousel';
 import { Card, CardContent } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
 import Image from 'next/image';
+import { ArrowTopRightIcon } from '@radix-ui/react-icons';
 
 export function SectionHero() {
   const images = [
@@ -59,7 +61,24 @@ export function SectionHero() {
             Models
           </h1>
           <h1 className="text-7xl font-bold text-black">For Your Needs</h1>
+          <div className="pt-6">
+            <p className="max-w-md text-sm text-gray-700">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industrys standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic
+            </p>
+          </div>
+          <div className="pt-6">
+            <Button className="rounded-full bg-[#141414] p-3 text-2xl font-bold text-white">
+              Explore Talent
+              <ArrowTopRightIcon className=" ml-2 h-4 w-4 rounded-full" />
+            </Button>
+          </div>
         </div>
+
         <Carousel
           plugins={[autoplayRef.current]}
           className="max-w-cover w-4/12 pt-12"
