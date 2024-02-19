@@ -77,7 +77,7 @@ devDependencies:
     specifier: ^0.5.11
     version: 0.5.11(prettier@3.2.5)
   tailwindcss:
-    specifier: ^3.3.0
+    specifier: ^3.4.1
     version: 3.4.1
   typescript:
     specifier: ^5
@@ -2131,6 +2131,7 @@ packages:
   /lilconfig@3.1.0:
     resolution: {integrity: sha512-p3cz0JV5vw/XeouBU3Ldnp+ZkBjE+n8ydJ4mcwBrOiXXPqNlrzGBqWs9X4MWF7f+iKUBu794Y8Hh8yawiJbCjw==}
     engines: {node: '>=14'}
+    deprecated: This version contains a security issue. Please upgrade to 3.1.1 or later.
 
   /lines-and-columns@1.2.4:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}

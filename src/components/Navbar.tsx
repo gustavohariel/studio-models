@@ -35,7 +35,7 @@ export default function Navbar() {
             state ? 'block' : 'hidden'
           }`}
         >
-          <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+          <ul className="items-center justify-center md:flex md:space-x-6 md:space-y-0">
             {menus.map((item, idx) => (
               <li
                 key={idx}

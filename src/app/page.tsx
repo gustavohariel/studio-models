@@ -3,6 +3,7 @@
 import Head from 'next/head';
 import Navbar from '../components/Navbar';
 import { SectionHero } from '@/components/SectionHero';
+import { LogoSlider } from '../components/LogoSlider';
 
 export default function Home() {
   return (
