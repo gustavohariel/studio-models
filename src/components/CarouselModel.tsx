@@ -43,7 +43,7 @@ const CarouselModel: React.FC<Props> = ({ images, autoplay }: Props) => {
       <CarouselContent>
         {images.map((image, index) => (
           <CarouselItem key={index}>
-            <Card>
+            <Card className="pt-5">
               <CardContent>
                 <Image
                   src={image}

@@ -47,7 +47,7 @@ export function SectionHero() {
             </p>
           </div>
           <div className="pt-6">
-            <Button className="rounded-full bg-[#141414] p-3 text-2xl font-bold text-white">
+            <Button className="rounded-full bg-[#141414] p-3 text-2xl font-bold text-white hover:bg-slate-700">
               Explore Talent
               <ArrowTopRightIcon className=" ml-2 h-4 w-4 rounded-full" />
             </Button>

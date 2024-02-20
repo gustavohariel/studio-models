@@ -16,7 +16,7 @@ export function LogoSlider() {
   ];
 
   return (
-    <div className="group flex space-x-16 overflow-hidden">
+    <div className="group flex space-x-16 overflow-hidden pt-14">
       <div className="animate-loop-scroll flex justify-center space-x-16 group-hover:paused">
         {logos.map((logo, index) => (
           <div key={index} className="items-center justify-center">
@@ -31,7 +31,7 @@ export function LogoSlider() {
         ))}
       </div>
       <div
-        className="animate-loop-scroll flex justify-center space-x-16"
+        className="animate-loop-scroll flex justify-center space-x-16 group-hover:paused"
         aria-hidden
       >
         {logos.map((logo, index) => (
