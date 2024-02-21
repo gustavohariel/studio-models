@@ -40,14 +40,14 @@ export function SectionHero() {
           <div className="pt-6">
             <p className="max-w-lg text-base text-[#141414]">
               We are a modeling and casting agency, a leader in career
-              management, with a focus on fashion and advertising, we operate in
-              the national and international market, providing advice on
-              appointments, dealing with everything from selection to working
-              conditions and ethical stance among its agents.
+              management with a focus on fashion and advertising. We operate in
+              the national and international markets, providing guidance on
+              appointments and handling everything from selection to working
+              conditions, maintaining an ethical stance among our agents.
             </p>
           </div>
           <div className="pt-6">
-            <Button className="rounded-full bg-[#141414] p-3 text-2xl font-bold text-white hover:bg-slate-700">
+            <Button className="rounded-full bg-[#141414] p-3 text-2xl font-bold text-white transition-transform duration-300 ease-in-out hover:scale-110">
               Explore Talent
               <ArrowTopRightIcon className=" ml-2 h-4 w-4 rounded-full" />
             </Button>
