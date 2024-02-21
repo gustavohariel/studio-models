@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import ModelsCategories from '../components/ModelsCategories';
+import { Button } from './ui/button';
 
 interface ImageProps {
   src: string;
@@ -21,7 +22,7 @@ const images: ImageProps[] = [
     details: {
       age: '25',
       height: '1.75',
-      moreButton: 'Fashion Female',
+      moreButton: 'Fashion',
     },
   },
   {
@@ -31,7 +32,7 @@ const images: ImageProps[] = [
     details: {
       age: '25',
       height: '1.75',
-      moreButton: 'Fashion Male',
+      moreButton: 'Fashion',
     },
   },
   {
@@ -41,7 +42,7 @@ const images: ImageProps[] = [
     details: {
       age: '25',
       height: '1.75',
-      moreButton: 'Fashion Curve',
+      moreButton: 'Fashion',
     },
   },
   {
@@ -51,7 +52,7 @@ const images: ImageProps[] = [
     details: {
       age: '25',
       height: '1.75',
-      moreButton: 'Cast Female',
+      moreButton: 'Cast',
     },
   },
   {
@@ -61,7 +62,7 @@ const images: ImageProps[] = [
     details: {
       age: '25',
       height: '1.75',
-      moreButton: 'Cast Male',
+      moreButton: 'Cast',
     },
   },
   {
@@ -71,7 +72,7 @@ const images: ImageProps[] = [
     details: {
       age: '25',
       height: '1.75',
-      moreButton: 'Cast Kids',
+      moreButton: 'Cast',
     },
   },
 ];
@@ -86,7 +87,7 @@ const LightBox: React.FC = () => {
             className="relative overflow-hidden rounded transition-transform duration-500 ease-in-out hover:scale-110"
           >
             <Image src={img.src} alt={img.alt} width={300} height={300} />
-            <div className="absolute left-0 top-0 flex h-full w-full items-center justify-center bg-black bg-opacity-70 opacity-0 transition-opacity hover:opacity-100">
+            <div className="absolute left-0 top-0 flex h-full w-full flex-col justify-end bg-black bg-opacity-70 p-4 opacity-0 transition-opacity hover:opacity-100">
               <ModelsCategories title={img.title} details={img.details} />
             </div>
           </div>
